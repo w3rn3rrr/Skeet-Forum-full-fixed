@@ -1,33 +1,16 @@
-SKEET Forum Source
+Skeet Forum Source
 =========================
 
-## get good. get webdev
+## get good. get WebDev
 
-File's
+Fixed logs:
 ```html
-	base,
-	-- require and other package functions
-	package,
-	-- coroutine functions and utilities
-	coroutine,
-	-- string library
-	string,
-	-- functionality from the OS
-	os,
-	-- all things math
-	math,
-	-- the table manipulator and observer functions
-	table,
-	-- the bit library: different based on which you're using
-	bit32,
-	-- input/output library
-	io,
-	-- LuaJIT only
-	ffi,
-	-- LuaJIT only
-	jit,
-	-- library for handling utf8
-	utf8
+	chat:
+	-- fixed bug with multiple messages
+	theme:
+	-- fixed bug with multiple messages
+	color of Role:
+	-- remade the color of the roles, as on the official website
 
 ```
 
@@ -36,17 +19,11 @@ File's
 ```html
 Название файла  | Содержание файла
 ----------------|----------------------
-style.css       | Пустой файл каскадной таблицы стилей, в который производится сбока необходимых стилей
-reset.css       | Reset CSS от Эрика Мейера
-normalize.css   | Нормалайзер CSS от Nicolas Gallagher
-block.css       | Основные стили блоков системы
-addition.css    | Дополнительные стили
-fontawesome.css | Стили иконочного шрифта
-layout.css      | Основные стили, применительно к определённому сайту
-lightbox.css    | Стили лайтбокса, если таковой используется
-index.html      | Индексный файл для проверки вносимых изменений
+forums\config   | Change database data
+style.css       | Change all css of theme
+index.html      | Fixed recaptcha 
 ```
 
 Screenshot
 ------------------
-![alt text](https://imgur.com/sZtam5L)
+![screenshot of sample](https://imgur.com/sZtam5L)
