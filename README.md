@@ -17,7 +17,7 @@ Fixed logs:
 File's
 --------------------------
 ```html
-Название файла  | Содержание файла
+Name files      | Setting
 ----------------|----------------------
 forums\config   | Change database data
 style.css       | Change all css of theme
@@ -26,4 +26,4 @@ index.html      | Fixed recaptcha
 
 Screenshot
 ------------------
-![screenshot of sample](https://imgur.com/sZtam5L)
+![screenshot](https://i.imgur.com/sZtam5L.png)
